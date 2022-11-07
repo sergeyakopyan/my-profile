@@ -1,0 +1,88 @@
+body {
+	background-color: #BFAA8C;
+	color: #000000;
+	font-family: Optima;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: Noto
+}
+h1 {
+	color: #7E805D;
+    font-weight: 550;
+    letter-spacing: 4px;
+    font-size: 32px;
+    text-align: center;
+}
+h2 {
+	color: #80471C;
+    font-size: 22px;
+	font-weight: 350;
+}
+a {
+	text-decoration: none;
+	color: #FFD591;
+	font-size: 16px;
+	font-weight: 550;
+}
+h3 {
+	color: #80471C;
+	font-size: 18px;
+	font-weight: 300;
+}
+a:hover {
+	color:#7E805D;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+.btn-caramel {
+	background-color: #FFD591;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-caramel:hover {
+	background-color: #7E805D;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	opacity: 0.8;
+}
+#introduction p {
+	margin-bottom: 40px
+}
+
